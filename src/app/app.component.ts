@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'aulao';
+  movies = ['Interestelar', 'Forest Gump', 'A Chegada', 'O Rei do Show', 'Molly`s Game'];
+  
+  handleEvent(){
+    console.log(this.movies);
+  }
 }
